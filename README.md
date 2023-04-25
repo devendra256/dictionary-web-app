@@ -9,6 +9,7 @@
 
 ### api used: https://dictionaryapi.dev/
 
+### view live demo here: https://my-personal-dictionary.netlify.app/
 
 ##  Screenshots
 
