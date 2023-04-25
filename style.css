@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { 
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #0D0630;
+}
+
+.synonym span {
+    margin: 0 2px;
+}
+#container {
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#card {
+    background: #FFF9DE;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+form {
+    border: 2px solid grey;
+    border-radius: 6px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 0 10px;
+}
+
+form input{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+}
+form input::selection {
+    background-color: #0D0630;
+    color: #FFF9DE;
+}
+
+.details, .search-data {
+    display: none;
+}
+
+#audio-btn {
+    background: transparent;
+    border: none;
+}
+.word {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.word p {
+    font-size: 20px;
+}
+.error {
+    font-size: 20px;
+    color: rgb(161, 35, 35);
+}

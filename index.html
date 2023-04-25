@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>My Dictionary 📖</title>
+</head>
+<body>
+    <div id="container">
+    <div id="card">
+            <div class="form">
+            <h1>English Dictionary</h1>
+            <form>
+                <i class="fa fa-search"></i>
+                <input type="search" autocomplete="off" name="" id="search-box" placeholder="Search a word...">
+            </form>
+            <p class="error"></p>
+        </div>
+        <div class="details">
+            <div class="word">
+                <p class="the-word"></p>
+                <audio src="" id="word-audio"></audio>
+                <button onclick="audioHandler();" id="audio-btn">
+                    <i class="fa fa-volume-high fa-lg"></i>
+                </button>
+            </div>
+            <p class="about-word"><span class="speech"></span>/<span class="phonetics"></span>/</p>
+            <hr>
+        </div>
+        <div class="search-data">
+            <div class="meaning-heading">
+                <p class="heading"> Meaning</p>
+                <p class="explain-meaning"></p>
+                <hr>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
